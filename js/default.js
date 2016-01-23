@@ -36,7 +36,7 @@ var movePiece = function(elem, coords, timeout){
 		*/
 		elem.style.left = coords.x;
 		elem.style.top = coords.y;
-		
+
 	}, timeout);
 };
 
@@ -68,7 +68,7 @@ var debug = function(){
 				if( /wireframes=true/.test(location.search) ){
 					temp.classList.add("wireframes");
 				}
-				if( /background=true/.test(location.search) ){
+				else if( /background=true/.test(location.search) ){
 					temp.classList.add("wireframes");
 				}
 			}
