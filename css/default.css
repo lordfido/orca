@@ -1,4 +1,4 @@
-﻿/*		*/
+﻿/*	Base elements	*/
 *{
 	margin: 0px;
 	padding: 0px;
@@ -13,9 +13,26 @@ body{
 	height: 100%;
 
 	overflow: hidden;
-	/*cursor: none;*/
+	cursor: none;
 }
 
+/* Aletas, 4 piezas */
+/* Aleta dorsal, 7 piezas */
+
+/* General styles */
+.fly{
+	position: absolute;
+	display: block;
+	float: none;
+
+	width: 6px;
+	height: 6px;
+
+	background-color: red;
+	border-radius: 50%;
+	opacity: 1;
+	z-index: 9999;
+}
 .body{
 	position: absolute;
 	display: inline-block;
@@ -26,186 +43,190 @@ body{
 	top: 110%;
 	left: 50%;
 
-	/*border: 1px dotted white; */
+	/*border: 1px solid gray;*/
 	border-radius: 50%;
 	opacity: 1;
 	/*transition: all 0.1s;*/
 }
+
+/* First body's mid-part */
 .lvl01{
-	width: 55px;
-	height: 60px;
+	width: 115px;
+	height: 115px;
 
 	background: black;
 	z-index: 1000;
 }
 .lvl02{
-	width: 105px;
-	height: 110px;
+	width: 145px;
+	height: 145px;
 
 	background: black;
 	z-index: 999;
 }
 .lvl03{
-	width: 140px;
-	height: 140px;
+	width: 175px;
+	height: 180px;
 
 	background: black;
 	z-index: 998;
 }
 .lvl04{
-	width: 170px;
-	height: 160px;
+	width: 205px;
+	height: 210px;
 
 	background: black;
 	z-index: 997;
 }
 .lvl05{
-	width: 180px;
-	height: 165px;
+	width: 235px;
+	height: 245px;
 
 	background: black;
 	z-index: 996;
 }
 .lvl06{
-	width: 190px;
-	height: 180px;
+	width: 265px;
+	height: 275px;
 
 	background: black;
 	z-index: 995;
 }
 .lvl07{
-	width: 205px;
-	height: 190px;
+	width: 295px;
+	height: 310px;
 
 	background: black;
 	z-index: 994;
 }
 .lvl08{
-	width: 205px;
-	height: 190px;
+	width: 315px;
+	height: 335px;
 
 	background: black;
 	z-index: 993;
 }
 .lvl09{
-	width: 205px;
-	height: 190px;
+	width: 335px;
+	height: 355px;
 
 	background: black;
 	z-index: 992;
 }
 .lvl10{
-	width: 205px;
-	height: 190px;
+	width: 355px;
+	height: 375px;
 
 	background: black;
 	z-index: 991;
 }
 .lvl11{
-	width: 205px;
-	height: 190px;
+	width: 375px;
+	height: 395px;
 
 	background: black;
 	z-index: 990;
 }
 .lvl12{
-	width: 205px;
-	height: 190px;
+	width: 395px;
+	height: 415px;
 
 	background: black;
 	z-index: 989;
 }
 .lvl13{
-	width: 205px;
-	height: 190px;
+	width: 415px;
+	height: 435px;
 	margin-top: -5px;
 
 	background: black;
 	z-index: 988;
 }
+
+/* Second body's mid-part */
 .lvl14{
-	width: 205px;
-	height: 190px;
+	width: 415px;
+	height: 435px;
 	margin-top: -10px;
 
 	background: black;
 	z-index: 987;
 }
 .lvl15{
-	width: 205px;
-	height: 190px;
+	width: 395px;
+	height: 415px;
 	margin-top: -15px;
 
 	background: black;
 	z-index: 986;
 }
 .lvl16{
-	width: 205px;
-	height: 190px;
+	width: 375px;
+	height: 395px;
 	margin-top: -15px;
 
 	background: black;
 	z-index: 985;
 }
 .lvl17{
-	width: 205px;
-	height: 190px;
+	width: 355px;
+	height: 375px;
 	margin-top: -10px;
 
 	background: black;
 	z-index: 984;
 }
 .lvl18{
-	width: 205px;
-	height: 190px;
+	width: 335px;
+	height: 355px;
 	margin-top: -5px;
 
 	background: black;
 	z-index: 983;
 }
 .lvl19{
-	width: 205px;
-	height: 190px;
+	width: 315px;
+	height: 335px;
 	margin-top: 0px;
 
 	background: black;
 	z-index: 982;
 }
 .lvl20{
-	width: 205px;
-	height: 190px;
+	width: 295px;
+	height: 315px;
 	margin-top: 5px;
 
 	background: black;
 	z-index: 981;
 }
 .lvl21{
-	width: 205px;
-	height: 190px;
+	width: 265px;
+	height: 285px;
 	margin-top: 10px;
 
 	background: black;
 	z-index: 980;
 }
 .lvl22{
-	width: 205px;
-	height: 190px;
+	width: 245px;
+	height: 265px;
 	margin-top: 15px;
 
 	background: black;
 	z-index: 979;
 }
 .lvl23{
-	width: 205px;
-	height: 190px;
+	width: 225px;
+	height: 245px;
 	margin-top: 20px;
 
 	background: black;
 	z-index: 978;
 }
 .lvl24{
-	width: 205px;
-	height: 190px;
+	width: 195px;
+	height: 215px;
 	margin-top: 25px;
 
 	background: black;
@@ -227,6 +248,8 @@ body{
 	background: black;
 	z-index: 975;
 }
+
+/* Tail */
 .lvl27{
 	width: 205px;
 	height: 190px;
@@ -286,40 +309,38 @@ body{
 	background: black;
 	z-index: 967;
 }
+.lvl35{
+	width: 205px;
+	height: 190px;
 
-.arcoiris{
-	opacity:100;
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	position:absolute;
-	display:inline;
+	background: black;
+	z-index: 967;
 }
-.rojo {
-	background-color: #FF0000;
-	z-index:7;
+.lvl36{
+	width: 205px;
+	height: 190px;
+
+	background: black;
+	z-index: 967;
 }
-.naranja{
-	background-color: #FF6200;
-	z-index:6;
+.lvl37{
+	width: 205px;
+	height: 190px;
+
+	background: black;
+	z-index: 967;
 }
-.amarillo{
-	background-color: #FFCC00;
-	z-index:5;
+.lvl38{
+	width: 205px;
+	height: 190px;
+
+	background: black;
+	z-index: 967;
 }
-.verde{
-	background-color: #00E604;
-	z-index:4;
-}
-.celeste{
-	background-color: #00CBE6;
-	z-index:3;
-}
-.azul{
-	background-color: #0008E6;
-	z-index:2;
-}
-.violeta{
-	background-color: #A400E6;
-	z-index:1;
+.lvl39{
+	width: 205px;
+	height: 190px;
+
+	background: black;
+	z-index: 967;
 }
