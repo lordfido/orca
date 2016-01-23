@@ -13,13 +13,26 @@ body{
 	height: 100%;
 
 	overflow: hidden;
-	/*cursor: none;*/
+	cursor: none;
 }
 
 /* Aletas, 4 piezas */
 /* Aleta dorsal, 7 piezas */
 
 /* General styles */
+.fly{
+	position: absolute;
+	display: block;
+	float: none;
+
+	width: 6px;
+	height: 6px;
+
+	background-color: red;
+	border-radius: 50%;
+	opacity: 1;
+	z-index: 9999;
+}
 .body{
 	position: absolute;
 	display: inline-block;
@@ -30,7 +43,7 @@ body{
 	top: 110%;
 	left: 50%;
 
-	/*border: 1px dotted white;*/
+	/*border: 1px solid gray;*/
 	border-radius: 50%;
 	opacity: 1;
 	/*transition: all 0.1s;*/

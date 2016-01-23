@@ -1,4 +1,5 @@
 var whale;
+var fly;
 
 /* Detect new mouse position, and move the whale there */
 var moveWhale = function(event){
@@ -27,9 +28,24 @@ var movePiece = function(elem, coords, timeout){
 	}, timeout);
 };
 
+var moveFly = function(event){
+
+	console.log(fly)
+
+	var mouseX = event.clientX + window.scrollX;
+	var mouseY = event.clientY + window.scrollY;
+
+	fly.style.left = mouseX - 3;
+	fly.style.top = mouseY - 3;
+}
+
 /* Event listener for mouse move */
 window.addEventListener("mousemove", function(event){
-	moveWhale(event);
+	moveFly(event);
+
+	setTimeout(function(){
+		moveWhale(event);
+	}, 400);
 });
 
 /* Event listener for load completed */
@@ -37,6 +53,7 @@ window.addEventListener('load', function(){
 
 	/* Init variables */
 	whale = document.getElementsByClassName("whale");
+	fly = document.getElementsByClassName("fly")[0];
 
 	/* Starts the magic */
 	var firstMove = {
