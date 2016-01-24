@@ -36,7 +36,6 @@ var movePiece = function(elem, coords, timeout){
 		*/
 		elem.style.left = coords.x;
 		elem.style.top = coords.y;
-
 	}, timeout);
 };
 
@@ -69,9 +68,19 @@ var debug = function(){
 					temp.classList.add("wireframes");
 				}
 				else if( /background=true/.test(location.search) ){
-					temp.classList.add("wireframes");
+					temp.classList.add("background");
+				}
+
+				if( /transparent=true/.test(location.search) ){
+					temp.classList.add("transparent");
 				}
 			}
+		}
+
+		if( /no-water=true/.test(location.search) ){
+			document.getElementsByClassName("background")[0].style.background = "transparent";
+			document.getElementsByClassName("background-colorfix")[0].style.background = "transparent";
+			document.getElementsByClassName("water-overlay")[0].style.background = "transparent";
 		}
 	}
 }
@@ -106,14 +115,13 @@ window.addEventListener('load', function(event){
 	/* Run debug tasks */
 	debug();
 
-	/* Get screen's center coords */
+	/* Get screen's center center coords */
 	var firstMove = {
 		clientX: (window.innerWidth / 2),
 		clientY: (window.innerHeight / 2)
 	};
 
 	/* Set the Fly and the Whale */
-
 	moveFly(firstMove);
 	moveWhale(firstMove);
 });
