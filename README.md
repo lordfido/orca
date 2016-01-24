@@ -19,7 +19,8 @@
 <p>Try some URLs like:
 <ul>
   <li><a href="http://lordfido.github.io/orca/?debug=true&no-water=true&wireframes=true" target="_blank">http://lordfido.github.io/orca/?debug=true&no-water=true&wireframes=true</a></li>
-  <li><a href="http://lordfido.github.io/orca/?debug=true&no-bubbles=true&no-water=true" target="_blank">http://lordfido.github.io/orca/?debug=true&no-bubbles=true&no-water=true</a></li>
+  <li><a href="http://lordfido.github.io/orca/?debug=true&no-bubbles=true&background=true" target="_blank">http://lordfido.github.io/orca/?debug=true&no-bubbles=true&background=true</a></li>
+  <li><a href="http://lordfido.github.io/orca/?debug=true&no-bubbles=true&no-water=true&transparent=true" target="_blank">http://lordfido.github.io/orca/?debug=true&no-bubbles=true&no-water=true&transparent=true</a></li>
 </ul>
 
 <p>This project was initiated by a teammates' challenge, in our free time.</p>
