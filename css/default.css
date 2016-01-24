@@ -98,7 +98,7 @@ body{
 	background: transparent;
 	border: 1px  dotted gray;
 }
-.whale.background{
+.whale.forced-background{
 	background: rgba(0, 0, 0, 0.1);
 	border-radius: 50%;
 }

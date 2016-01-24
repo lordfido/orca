@@ -68,7 +68,7 @@ var debug = function(){
 					temp.classList.add("wireframes");
 				}
 				else if( /background=true/.test(location.search) ){
-					temp.classList.add("background");
+					temp.classList.add("forced-background");
 				}
 
 				if( /transparent=true/.test(location.search) ){

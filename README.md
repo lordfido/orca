@@ -7,13 +7,20 @@
 <p>You can see a live demo <a href="http://lordfido.github.io/orca" target="_blank">here</a>. It's in a very early state.</p>
 
 # Debugging
-<p>I have implemented some debug parameters, so you can 'play' with them. Just place <code>?debug=true&code=true</code> where code can be:
+<p>I have implemented some debug parameters, so you can 'play' with them. Just place <code>?debug=true&code=true</code> where you can replace <code>code</code> with:
 <ul>
-  <li>wireframes: This will draw square lines arround each piece of the whale.</li>
-  <li>transparent: This will remove the image from each piece of the whale.</li>
-  <li>background: This will color each piece with black at 10% opacity, replacing its image. This also color pieces without image yet.</li>
-  <li>no-water: This will remove the water background.</li>
-  <li>no-bubbles: This will remove the bubbles effect.</li>
+  <li><code>wireframes</code>: This will draw square lines arround each piece of the whale.</li>
+  <li><code>transparent</code>: This will remove the image from each piece of the whale.</li>
+  <li><code>background</code>: This will color each piece with black at 10% opacity, replacing its image. This also color pieces without image yet.</li>
+  <li><code>no-water</code>: This will remove the water background.</li>
+  <li><code>no-bubbles</code>: This will remove the bubbles effect.</li>
+</ul>
+
+<p>Try some URLs like:
+<ul>
+  <li><a href="http://lordfido.github.io/orca/?debug=true&no-water=true&wireframes=true" target="_blank">http://lordfido.github.io/orca/?debug=true&no-water=true&wireframes=true</a></li>
+  <li><a href="http://lordfido.github.io/orca/?debug=true&no-bubbles=true&background=true" target="_blank">http://lordfido.github.io/orca/?debug=true&no-bubbles=true&background=true</a></li>
+  <li><a href="http://lordfido.github.io/orca/?debug=true&no-bubbles=true&no-water=true&transparent=true" target="_blank">http://lordfido.github.io/orca/?debug=true&no-bubbles=true&no-water=true&transparent=true</a></li>
 </ul>
 
 <p>This project was initiated by a teammates' challenge, in our free time.</p>
